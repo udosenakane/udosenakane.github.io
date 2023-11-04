@@ -21,13 +21,12 @@ jobs:
       - name: Install project dependencies
         run: |
           npm install
-          composer install --no-dev
 
       - name: Build the JavaScript project
         run: npm run build  # Adjust to your build command
       
       - name: Deploy the build
         run: |
-          cd udosenakane.github.io
           rm -rf *
           mv dist/* ~/docs
+          rm -rf dist
