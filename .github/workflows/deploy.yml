@@ -27,6 +27,5 @@ jobs:
       
       - name: Deploy the build
         run: |
-          rm -rf *
           mv dist/* ~/docs
           rm -rf dist
