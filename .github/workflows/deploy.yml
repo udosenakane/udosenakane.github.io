@@ -21,7 +21,6 @@ jobs:
       - name: Install project dependencies
         run: |
           npm install
-          composer install --no-dev
 
       - name: Build the JavaScript project
         run: npm run build  # Adjust to your build command
