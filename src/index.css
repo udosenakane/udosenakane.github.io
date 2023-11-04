@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.overlay {
+  position: absolute; 
+  background: rgba(0, 0, 0, 0.7);
+
+  /* center overlay text */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay_1 {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  /* padding: 1rem; */
+}
