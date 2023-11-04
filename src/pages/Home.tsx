@@ -1,5 +1,6 @@
 import Layout from '../components/Layout'
 import bg from '../bg.png'
+import cv from '../akcv.pdf'
 
 function Home() {
     return (
@@ -19,11 +20,11 @@ function Home() {
                         top-0 bottom-0 overla overla_1 flex items-center justify-center">
                         <div style={{ backgroundColor: 'rgba(0, 0, 0, 0.1)' }} className='rounded p-20'>
                             <h1 className='font-bold text-white italics text-lg'>I am Akan Udosen</h1>
-                            <p className='font-bold text-white italic text-lg my-5'>A FullStack Developer | Cloud Engineer | Technical Support Engineer</p>
+                            <p className='font-bold text-gray-300 italic text-lg my-5'>A FullStack Developer | Cloud Engineer | Technical Support Engineer</p>
                         
-                            <button className='hover:bg-yellow-600 active:bg-yellow-700 bg-yellow-500 italic rounded p-2'>
+                            <a href={cv} download className='hover:bg-yellow-600 active:bg-yellow-700 bg-yellow-500 italic rounded p-2'>
                                 Download my CV
-                            </button>
+                            </a>
                         </div>
                     </div>
                 </main>
