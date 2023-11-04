@@ -29,7 +29,7 @@ function Contact() {
                             </p>
 
                             <div className='text-[30px] mt-10'>
-                                <a href="www.linkedin.com/in/akan-udosen" className='mr-5'>
+                                <a href="https://www.linkedin.com/in/akan-udosen" className='mr-5'>
                                     <span className='fab fa-linkedin'></span>
                                 </a>
 
