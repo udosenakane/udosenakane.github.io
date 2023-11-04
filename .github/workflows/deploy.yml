@@ -21,20 +21,13 @@ jobs:
       - name: Install project dependencies
         run: |
           npm install
+          composer install --no-dev
 
       - name: Build the JavaScript project
         run: npm run build  # Adjust to your build command
       
       - name: Deploy the build
         run: |
-          git config --global user.email "udosenakane@gmail.com"
-          git config --global user.name "Akan Udosen"
-
-          cd ./dist
-          git init
-          git checkout -b main
-
-          git remote add production https://github.com/udosenakane/udosenakane.github.io.git
-          git add .
-          git commit -m "Deploy via GitHub Actions"
-          git push --force production main
+          cd udosenakane.github.io
+          rm -rf *
+          mv dist/* ~/docs
