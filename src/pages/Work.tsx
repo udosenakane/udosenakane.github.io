@@ -8,7 +8,7 @@ function Work() {
     return (
         <>
             <Layout>
-                <main className='w-full sm:w-9/12 mx-auto'>
+                <main className='w-full sm:w-9/12 mx-auto mb-20'>
                     <h1 style={{borderBottomWidth:'3px'}} 
                     className='uppercase border-black mt-20 text-center 
                     font-bold text-[20px] pb-3 w-full border-b'>Portfolio</h1>
