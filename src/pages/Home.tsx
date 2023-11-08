@@ -23,7 +23,7 @@ function Home() {
                             <p className='font-bold text-gray-300 italic text-lg my-5'>A FullStack Developer | Cloud Engineer</p>
                         
                             <a href={cv} download className='hover:bg-yellow-600 active:bg-yellow-700 bg-yellow-500 italic rounded p-2'>
-                                Download my CV
+                                Check my resume
                             </a>
                         </div>
                     </div>
