@@ -1,4 +1,4 @@
-import { RouteObject, createBrowserRouter } from 'react-router-dom'
+import { RouteObject, createBrowserRouter, Navigate } from 'react-router-dom'
 import Home from './pages/Home'
 import About from './pages/About'
 import Service from './pages/Serivce'
@@ -33,7 +33,7 @@ const routes: RouteObject[] = [
 
   {
     path: '*',
-    element: <Home />,
+    element: <Navigate replace to="/" />,
   },
 ]
 
