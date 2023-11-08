@@ -30,6 +30,11 @@ const routes: RouteObject[] = [
     path: '/contact',
     element: <Contact />,
   },
+
+  {
+    path: '*',
+    element: <Home />,
+  },
 ]
 
 export default createBrowserRouter(routes)
