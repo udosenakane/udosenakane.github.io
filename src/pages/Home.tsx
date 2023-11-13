@@ -15,7 +15,7 @@ function Home() {
 
                     <img src={bg} className="w-full" alt="" />
 
-                    <div style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}
+                    <div style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)' }}
                         className="absolute bg-gray-500 left-0 right-0 
                         top-0 bottom-0 overla overla_1 flex items-center justify-center">
                         <div style={{ backgroundColor: 'rgba(0, 0, 0, 0.1)' }} className='rounded p-20'>
