@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import akan from '../../public/akan.jpg'
+import akan from '../akan.jpg'
 import { useState } from 'react'
 
 const Header = () => {

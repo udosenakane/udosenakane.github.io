@@ -24,6 +24,10 @@ function Work() {
                                     My personal website
                                 </p>
 
+                                <p className="text-center uppercase py-1 w-full bg-gray-200">
+                                <a href="https://udosenakane.github.io" target="_blank" 
+                                className="block w-full">https://udosenakane.github.io</a>
+                                </p>
 
                                 <Dropdown className='p-3 bg-gray-200'>
                                     <ul className='p-3'>
@@ -46,6 +50,10 @@ function Work() {
 
                                 <p className="text-center uppercase py-1">
                                     Ecommerce store for gadgets
+                                </p>
+
+                                <p className="text-center uppercase py-1 w-full bg-gray-200">
+                                <a href="https://gadgetstore.ng" target="_blank" className="block w-full">https://Gadgetstore NG</a>
                                 </p>
 
                                 <Dropdown className='p-3 bg-gray-200'>

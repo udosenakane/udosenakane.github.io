@@ -1,5 +1,5 @@
 import Layout from '../components/Layout'
-import akan from '../../public/akan.jpg'
+import akan from '../akan.jpg'
 
 function About() {
     return (
