@@ -13,7 +13,7 @@ function Contact() {
                             className='rounded sm:p-20 p-5 w-ful'>
                             <p>
                                 <span className='fas fa-map-marker-alt'></span>
-                                &nbsp;11 Kola Abiodun St, Agbede, Ikorodu, Lagos, Nigeria
+                                &nbsp;Lagos, Nigeria
                             </p>
 
                             <p className='my-5'>

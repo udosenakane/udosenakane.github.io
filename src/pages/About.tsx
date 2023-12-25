@@ -21,7 +21,7 @@ function About() {
                                         <p >Profile: </p>
                                         <ul>
                                             <li><span className="fas fa-dot-circle"></span> Cloud Engineer</li>
-                                            <li><span className="fas fa-dot-circle"></span> Full stack Developer</li>
+                                            <li><span className="fas fa-dot-circle"></span> Fullstack Developer</li>
                                             <li><span className="fas fa-dot-circle"></span> Techical Support Engineer</li>
                                         </ul>
 
@@ -162,7 +162,7 @@ function About() {
                                 </p>
 
                                 <p>
-                                    Experienced Cloud Engineer with a proven ability to
+                                    And an experienced Cloud Engineer with a proven ability to
                                     design, implement, and manage cloud-based solutions for
                                     organizations.
                                     Adept at working with major cloud platforms such as AWS,
